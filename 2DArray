@@ -1,0 +1,60 @@
+public class App {
+    public static void main(String[] args) {
+
+
+        int num2[][]  = new  int[3] [4];
+        
+
+        int num[][] = { {3,6,9,10} , {1,4,8,9} , {10,20,30,40}  };
+        
+        System.out.println(num[0] [3]);
+        System.out.println(num[2] [1]);
+        System.out.println(num[2] [3]);
+
+        System.out.print("\nFirst Array: ");
+        for(int c = 0; c < 4; c++) {
+          System.out.print(num[0] [c] + "");
+        }
+          System.out.print("\nSecond Array: ");
+        for(int c = 0; c < 4; c++) {
+          System.out.print(num[1] [c] + "");
+        }
+          System.out.print("\nThird Array: ");
+        for(int c = 0; c < 4; c++) {
+          System.out.print(num[2] [c] + "");
+
+        }      
+    }
+}
+
+
+//2nd example
+
+// public class App {
+//    public static void main(String[] args) {
+
+
+//        int num2[][]  = new  int[3] [4];
+        
+
+ //       int num[][] = { {3,6,9,10} , {1,4,8,9} , {10,20,30,40}  };
+        
+  //      System.out.println(num[0] [3]);
+   //     System.out.println(num[2] [1]);
+   //     System.out.println(num[2] [3]);
+
+//        System.out.print("\nFirst Array: ");
+  //      for(int c = 0; c < num[0].length; c++) {
+    //      System.out.print(num[0] [c] + "");
+        }
+   //       System.out.print("\nSecond Array: ");
+   //     for(int c = 0; c < num[1].length; c++) {
+   //       System.out.print(num[1] [c] + "");
+        }
+   //       System.out.print("\nThird Array: ");
+   //     for(int c = 0; c < num[2].length; c++) {
+   //       System.out.print(num[2] [c] + "");
+
+        }      
+    }
+}
